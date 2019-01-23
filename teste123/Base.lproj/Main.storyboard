@@ -29,7 +29,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="23"/>
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <state key="normal" title="Hip-Hop/Rap">
+                                        <state key="normal" title="Jazz">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -44,7 +44,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="23"/>
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <state key="normal" title="Dance">
+                                        <state key="normal" title="Pop">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -104,12 +104,11 @@
                                     <action selector="nextButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v4Y-6G-SCf"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="MyMusic" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="91C-Id-EYf">
-                                <rect key="frame" x="66" y="20" width="243" height="52"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="MyMusic" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="91C-Id-EYf">
+                                <rect key="frame" x="87.5" y="35" width="200" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="243" id="D0J-rP-mM4"/>
-                                    <constraint firstAttribute="width" secondItem="91C-Id-EYf" secondAttribute="height" multiplier="243:52" id="PqP-vG-uaH"/>
-                                    <constraint firstAttribute="height" constant="52" id="jGO-zU-T6G"/>
+                                    <constraint firstAttribute="width" constant="200" id="2c5-49-Npn"/>
+                                    <constraint firstAttribute="height" constant="60" id="vmZ-EX-I2o"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="37"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -119,12 +118,13 @@
                         <constraints>
                             <constraint firstItem="g0d-2W-sSo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="3Dw-xa-d4D"/>
                             <constraint firstItem="0XH-6y-0Hx" firstAttribute="top" secondItem="g0d-2W-sSo" secondAttribute="bottom" constant="40" id="5ZS-P5-HlJ"/>
-                            <constraint firstItem="91C-Id-EYf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8Z6-Vy-36N"/>
                             <constraint firstItem="Zkg-hh-eME" firstAttribute="top" secondItem="g0d-2W-sSo" secondAttribute="bottom" constant="40" id="9JH-H8-ReB"/>
                             <constraint firstItem="0XH-6y-0Hx" firstAttribute="trailing" secondItem="g0d-2W-sSo" secondAttribute="trailing" id="N3z-tS-Y4B"/>
                             <constraint firstItem="Zkg-hh-eME" firstAttribute="leading" secondItem="g0d-2W-sSo" secondAttribute="leading" id="PW0-mv-b8Q"/>
+                            <constraint firstItem="ntJ-wU-qyV" firstAttribute="top" secondItem="91C-Id-EYf" secondAttribute="bottom" constant="38.5" id="Qym-Wa-1CR"/>
+                            <constraint firstItem="91C-Id-EYf" firstAttribute="centerX" secondItem="g0d-2W-sSo" secondAttribute="centerX" id="YMe-rd-JGF"/>
                             <constraint firstItem="g0d-2W-sSo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u6V-Gj-yyR"/>
-                            <constraint firstItem="91C-Id-EYf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vbZ-Bh-yfP"/>
+                            <constraint firstItem="91C-Id-EYf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="vw3-qd-OOB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
